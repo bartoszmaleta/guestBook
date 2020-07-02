@@ -19,7 +19,7 @@ public class GuestbookServer {
         httpServer.setExecutor(null);
     }
 
-    private HttpServer getServer() {
+    public HttpServer getServer() {
         return this.server;
     }
 }
