@@ -6,7 +6,11 @@ import com.sun.net.httpserver.HttpServer;
 import java.io.IOException;
 
 /**
- * Hello world!
+ * To run need to:
+ *  - create DB;
+ *  - setPassword();
+ *
+ * basicDataSource.setPassword("");
  *
  */
 public class App 

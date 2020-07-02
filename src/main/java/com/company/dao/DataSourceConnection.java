@@ -13,7 +13,7 @@ public class DataSourceConnection {
 
         basicDataSource.setUrl("jdbc:postgresql://localhost:5432/guestbook");
         basicDataSource.setUsername("postgres");
-        basicDataSource.setPassword("admin");
+        basicDataSource.setPassword("");
         basicDataSource.setMinIdle(5);
         basicDataSource.setMaxIdle(10);
         basicDataSource.setMaxOpenPreparedStatements(100);
